@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main () {
+	int n = 100;
+	while ( n <= 1000 )
+	{
+		if ( n % 2 == 0 ) {
+			cout << n << " : Merupakan bilangan genap " << endl; n++;
+		
+		} else if ( n % 2 == 1 ) {
+			cout << n << " : Merupakan bilangan ganjil" << endl; n++;
+
+		}
+	}
+}
