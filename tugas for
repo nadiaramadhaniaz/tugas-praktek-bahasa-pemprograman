@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+int main () {
+	
+	int n,s;
+	cout << " Masukkan nilai awal : ";
+	cin >> n;
+	
+	cout << " Masukkan nilai akhir : ";
+	cin >> s;
+	
+	for (int h = n; h <= s; h++)
+	{
+		if ( h % 2 == 0 ) {
+			cout << h << " : Merupakan bilangan genap "
+			
+	<< endl;
+	
+		} else if ( h % 2 == 1 ) {
+			cout << h << " : Merupakan bilangan ganjil "
+	<< endl;
+	
+		}
+	}
+}
